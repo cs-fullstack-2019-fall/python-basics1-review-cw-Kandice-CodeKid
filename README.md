@@ -1,5 +1,5 @@
 # python-basics1-review-cw
-
+2/3 correct + partial credit #3. See kandice.py for comments. Score:4
 ### Problem 1:
 Create a program that prints the user input until they enter 'q' to quit.
 

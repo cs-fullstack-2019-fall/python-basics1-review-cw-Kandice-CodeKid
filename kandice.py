@@ -17,7 +17,8 @@ print(userInput)
 # Create a program that takes user input in a while loop. If they enter 1, print 1. If they enter 2, print 2. If they enter 3 print 3. If they enter ‘q’ or 0 (your choice), quit. Else, print “ERROR”.
 # 
 doeInput =input("enter a number or press q or zero to quit")
-while (doeInput != 'q'or doeInput != '0'):
+while (doeInput != 'q' or doeInput != '0'):
+    # you while loop is broken but works without your second condition
     if doeInput=="1":
         print(doeInput)
         doeInput =input("enter a number or press q or zero to quit")
